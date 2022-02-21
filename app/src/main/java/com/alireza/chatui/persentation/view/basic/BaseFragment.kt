@@ -1,4 +1,4 @@
-package com.alireza.chatui
+package com.alireza.chatui.persentation.view.basic
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.alireza.chatui.persentation.viewmodel.BaseViewModel
 import java.lang.reflect.ParameterizedType
+
 
 abstract class BaseFragment<VDB : ViewDataBinding, VM : BaseViewModel>(@LayoutRes private val layoutResId: Int) :
     Fragment() {

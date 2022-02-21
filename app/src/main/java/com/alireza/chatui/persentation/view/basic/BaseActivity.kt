@@ -1,4 +1,4 @@
-package com.alireza.chatui
+package com.alireza.chatui.persentation.view.basic
 
 import android.os.Bundle
 import android.view.LayoutInflater
